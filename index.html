@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" href="graduation-hat.png" type="image/png">
+</head>
+<body style="background-color: #f8f8f8;">
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    </div>
+
+    <header>
+        <h1 class="kanit-black">Meu Portfólio</h1>
+    </header>
+
+    <div class="tabs">
+        <button id="defaultOpen" class="tablinks kanit-black" onclick="openTab(event, 'sobre')">Sobre Mim</button>
+        <button class="tablinks kanit-black" onclick="openTab(event, 'projetos')">Projetos</button>
+    </div>
+
+    <div id="sobre" class="tabcontent">
+        <h2 class="kanit-black">Sobre Mim</h2>
+        <div class="about-me">
+            <img src="https://avatars.githubusercontent.com/u/101757435?v=4" alt="Foto de Perfil" class="profile-picture">
+            <div class="about-me-text kanit-black">
+                <h3>André Luis</h3>
+                <p>Estudante de Ciências da Computação | Ciência de Dados | Full Stack</p>
+                <p>Olá! 👋 Eu sou André Luis, um entusiasta de tecnologia com uma paixão por resolver problemas e criar soluções inovadoras. Estou cursando o 7º semestre de Ciências da Computação na UNICID e sempre estou buscando aprender mais e me aprimorar nas tecnologias mais recentes.</p>
+                
+                <p><strong>Habilidades:</strong></p>
+                <ul>
+                    <li>Linguagens de Programação: Python, JavaScript, C++</li>
+                    <li>Banco de Dados: SQL Server</li>
+                    <li>Frameworks: React.js, Node.js</li>
+                    <li>Ciência de Dados: Apaixonado por explorar dados e extrair insights valiosos.</li>
+                </ul>
+                <p><strong>O que estou fazendo:</strong></p>
+                <ul>
+                    <li>Atualmente focado em aprimorar minhas habilidades em Ciência de Dados, explorando técnicas avançadas e ferramentas modernas.</li>
+                    <li>Estudando para me tornar um Full Stack Developer, buscando uma compreensão abrangente tanto no desenvolvimento de frontend quanto backend.</li>
+                </ul>
+                <p><strong>Educação:</strong></p>
+                <ul>
+                    <li>Ciências da Computação: 7º semestre - UNICID</li>
+                </ul>
+                <p><strong>Aprendizado Contínuo:</strong></p>
+                <p>Estou sempre em busca de aprendizado contínuo, seja explorando novas bibliotecas, participando de cursos online ou contribuindo para projetos de código aberto.</p>
+                <p><strong>Conecte-se:</strong></p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/andrelgr/">LinkedIn</a></li>
+                    <li><a href="https://criarmeulink.com.br/u/1704594396">Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="projetos" class="tabcontent">
+        <h2 class="kanit-black">Meus Projetos</h2>
+        <div id="project-list">
+            <!-- Os projetos serão adicionados aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
